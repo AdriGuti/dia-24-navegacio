@@ -1,0 +1,39 @@
+<template>
+    <v-container>
+        <v-row>
+            <v-col>
+                <v-text-field v-model="valor1" type="number">
+                </v-text-field>
+            </v-col>
+            <v-col>
+                <v-text-field v-model="valor2" type="number">
+                </v-text-field>
+            </v-col>
+            <v-col>
+                <v-btn @click="mostraValor()">Mostra Suma</v-btn>
+            </v-col>
+            <v-col>
+                <div>
+                    {{resultat}}
+                </div>
+            </v-col>
+        </v-row>
+    </v-container>
+</template>
+
+<script>
+    export default{
+        data(){
+            return{
+                valor1:"",
+                valor2:"",
+                resultat:0
+            }
+        },
+        methods:{
+            mostraValor(){
+                this.resultat=parseFloat(this.valor2)+parseFloat(this.valor1)
+            }
+        }
+    }
+</script>

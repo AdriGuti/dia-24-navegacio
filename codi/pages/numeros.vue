@@ -1,0 +1,17 @@
+<template>
+    <v-container>
+        <ExercisisMostraNumeros></ExercisisMostraNumeros>
+        <ExercisisMostrarPerDeu></ExercisisMostrarPerDeu>
+        <ExercisisMostrarDoble></ExercisisMostrarDoble>
+        <ExercisisMostrarSuma></ExercisisMostrarSuma>
+        <ExercisisMostrarResta></ExercisisMostrarResta>
+        <ExercisisMostrarMultiplicacio></ExercisisMostrarMultiplicacio>
+        <ExercisisMostrarDivisio></ExercisisMostrarDivisio>
+        <ExercisisMostraText></ExercisisMostraText>
+        <ExercisisMostraMajuscules></ExercisisMostraMajuscules>
+        <ExercisisMostraMinuscules></ExercisisMostraMinuscules>
+        <ExercisisAfegeixGuio></ExercisisAfegeixGuio>
+        <ExercisisContarCaracters></ExercisisContarCaracters>
+        <ExercisisContarParaules></ExercisisContarParaules>
+    </v-container>
+</template>
