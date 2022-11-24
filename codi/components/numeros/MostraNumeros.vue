@@ -1,5 +1,6 @@
 <template>
     <v-row>
+        <v-col cols="12"><strong>Mostra números</strong></v-col>
         <v-col>
             <v-text-field
                 v-model="valorActual"
