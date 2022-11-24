@@ -13,5 +13,6 @@
         <ExercisisAfegeixGuio></ExercisisAfegeixGuio>
         <ExercisisContarCaracters></ExercisisContarCaracters>
         <ExercisisContarParaules></ExercisisContarParaules>
+
     </v-container>
 </template>
