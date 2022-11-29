@@ -13,6 +13,7 @@
         <ExercisisAfegeixGuio></ExercisisAfegeixGuio>
         <ExercisisContarCaracters></ExercisisContarCaracters>
         <ExercisisContarParaules></ExercisisContarParaules>
-
+        <ExercisisPosicioParaula></ExercisisPosicioParaula>
+        <ExercisisBorrarHola></ExercisisBorrarHola>
     </v-container>
 </template>

@@ -6,7 +6,7 @@
                 </v-text-field>
             </v-col>
             <v-col>
-                <v-btn @click="mostraValor()">Conta Paraules</v-btn>
+                <v-btn @click="mostraValor()">Posicio paraula</v-btn>
             </v-col>
             <v-col>
                 <div>
@@ -27,7 +27,7 @@
         },
         methods:{
             mostraValor(){
-                this.resultat = this.valorActual.trim().match(/[\W]+/g).length+1;
+                this.resultat=this.valorActual.split(" ").indexOf("hola")+1
             }
         }
     }
