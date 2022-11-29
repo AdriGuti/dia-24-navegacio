@@ -28,7 +28,7 @@
         methods:{
             mostraValor(){
                 this.resultat=this.valorActual.matchAll().length
-                console.log(this.valorActual.matchAll(/[\W]+/g).length)
+                console.log(this.valorActual.matchAll(/[\W]+/g))
             }
         }
     }
